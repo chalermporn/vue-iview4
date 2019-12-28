@@ -2,6 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <div>
+       <Slider v-model="value" range />
       <p>
         If ViewUI is successfully added to this project, you'll see an
         <code v-text="'<Button>'"></code>
@@ -20,6 +21,11 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data () {
+    return {
+      value: [20, 50]
+    }
   }
 }
 </script>
