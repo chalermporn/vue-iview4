@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "xiguaxigua.vue-style-beautify",
+    "dbaeumer.vscode-eslint",
+    "msjsdiag.debugger-for-chrome",
+    "octref.vetur"
+  ]
+}
+

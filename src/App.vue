@@ -26,6 +26,9 @@ export default {
     return {
       value: [20, 50]
     }
+  },
+  mounted() {
+    alert('hello')
   }
 }
 </script>
