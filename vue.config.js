@@ -1,15 +1,18 @@
 // https://cli.vuejs.org/config/
 module.exports = {
   productionSourceMap: false,
+  lintOnSave: true,
   css: {
     loaderOptions: {
       less: {
         javascriptEnabled: true
+        // https://github.com/iview/iview-admin/issues/841
       }
     }
   },
   transpileDependencies: [
-    'iview'
+    'iview',
+    'view-design'
   ],
   chainWebpack: config => {
     config.module
@@ -20,6 +23,5 @@ module.exports = {
       .options({
         prefix: true
       })
-  },
-  lintOnSave: true
+  }
 }

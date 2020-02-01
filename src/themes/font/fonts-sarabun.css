@@ -1,0 +1,335 @@
+/* Include all fonts & customized classes */
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 100;
+
+  src: url(Sarabun-Thin.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 100;
+
+  src: url(Sarabun-ThinItalic.ttf) format("truetype");
+}
+.Sarabun-100 {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 100;
+}
+
+.Sarabun-100i {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 200;
+
+  src: url(Sarabun-ExtraLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 200;
+
+  src: url(Sarabun-ExtraLightItalic.ttf) format("truetype");
+}
+.Sarabun-200 {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 200;
+}
+
+.Sarabun-200i {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 300;
+
+  src: url(Sarabun-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 300;
+
+  src: url(Sarabun-LightItalic.ttf) format("truetype");
+}
+.Sarabun-300 {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 300;
+}
+
+.Sarabun-300i {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 400;
+
+  src: url(Sarabun-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 400;
+
+  src: url(Sarabun-Italic.ttf) format("truetype");
+}
+.Sarabun-400 {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Sarabun-400i {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 500;
+
+  src: url(Sarabun-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 500;
+
+  src: url(Sarabun-MediumItalic.ttf) format("truetype");
+}
+.Sarabun-500 {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.Sarabun-500i {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 600;
+
+  src: url(Sarabun-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 600;
+
+  src: url(Sarabun-SemiBoldItalic.ttf) format("truetype");
+}
+.Sarabun-600 {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 600;
+}
+
+.Sarabun-600i {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 700;
+
+  src: url(Sarabun-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 700;
+
+  src: url(Sarabun-BoldItalic.ttf) format("truetype");
+}
+.Sarabun-700 {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.Sarabun-700i {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 800;
+
+  src: url(Sarabun-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 800;
+
+  src: url(Sarabun-ExtraBoldItalic.ttf) format("truetype");
+}
+.Sarabun-800 {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 800;
+}
+
+.Sarabun-800i {
+  font-family: "Sarabun";
+  font-style: italic;
+  font-weight: 800;
+}
+/* 
+@font-face {
+  font-family: "Sarabun";
+  src: url(Sarabun-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: "Sarabun";
+  src: url(Sarabun-BlackItalic.ttf) format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+.Sarabun-900 {
+  font-family: "Sarabun";
+  font-weight: 900;
+  font-style: normal; }
+
+.Sarabun-900i {
+  font-family: "Sarabun";
+  font-weight: 900;
+  font-style: italic; } */
+
+body {
+  font-family: "Sarabun";
+          font-feature-settings: "ccmp";
+          font-feature-settings: "locl";
+          font-kerning: normal;
+          font-variant: common-ligatures;
+
+  -webkit-font-feature-settings: "ccmp";
+  -webkit-font-feature-settings: "locl";
+     -moz-font-feature-settings: "ccmp";
+     -moz-font-feature-settings: "locl";
+      -ms-font-feature-settings: "ccmp";
+      -ms-font-feature-settings: "locl";
+  -webkit-font-kerning: normal;
+     -moz-font-kerning: normal;
+      -ms-font-kerning: normal;
+  -webkit-font-variant: common-ligatures;
+     -moz-font-variant: common-ligatures;
+      -ms-font-variant: common-ligatures;
+}
+body .test-text {
+  font-size: 36px;
+}
+body .tnum {
+          font-feature-settings: "tnum";
+
+  -webkit-font-feature-settings: "tnum";
+     -moz-font-feature-settings: "tnum";
+      -ms-font-feature-settings: "tnum";
+}
+body .pnum {
+          font-feature-settings: "pnum";
+
+  -webkit-font-feature-settings: "pnum";
+     -moz-font-feature-settings: "pnum";
+      -ms-font-feature-settings: "pnum";
+}
+body sup,
+body .sups {
+          font-feature-settings: "sups";
+  vertical-align: unset;
+
+  -webkit-font-feature-settings: "sups";
+     -moz-font-feature-settings: "sups";
+      -ms-font-feature-settings: "sups";
+}
+body sub,
+body .subs {
+          font-feature-settings: "subs";
+  vertical-align: unset;
+
+  -webkit-font-feature-settings: "subs";
+     -moz-font-feature-settings: "subs";
+      -ms-font-feature-settings: "subs";
+}
+body .numr {
+          font-feature-settings: "numr";
+  vertical-align: unset;
+
+  -webkit-font-feature-settings: "numr";
+     -moz-font-feature-settings: "numr";
+      -ms-font-feature-settings: "numr";
+}
+body .dnom {
+          font-feature-settings: "dnom";
+  vertical-align: unset;
+
+  -webkit-font-feature-settings: "dnom";
+     -moz-font-feature-settings: "dnom";
+      -ms-font-feature-settings: "dnom";
+}
+body .frac {
+          font-feature-settings: "frac";
+
+  -webkit-font-feature-settings: "frac";
+     -moz-font-feature-settings: "frac";
+      -ms-font-feature-settings: "frac";
+}
+body .ordn {
+          font-feature-settings: "ordn";
+
+  -webkit-font-feature-settings: "ordn";
+     -moz-font-feature-settings: "ordn";
+      -ms-font-feature-settings: "ordn";
+}
+
+/* Font selector */
+.select-form {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+}
+.select-form #font-selector {
+  overflow: hidden;
+  padding: 02px 5px;
+  color: #fff;
+  background-color: #555;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+}
+.select-form #font-selector:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=fonts.css.map */

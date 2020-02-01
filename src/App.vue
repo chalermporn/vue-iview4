@@ -2,7 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <div>
-       <Slider v-model="value" range />
+      <Slider v-model="value" range />
       <p>
         If ViewUI is successfully added to this project, you'll see an
         <code v-text="'<Button>'"></code>
@@ -18,7 +18,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     HelloWorld
   },
@@ -32,11 +32,11 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  margin-top: 60px;
+  color: #2c3e50;
+  text-align: center;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

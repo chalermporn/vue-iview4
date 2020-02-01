@@ -1,28 +1,16 @@
 {
   "editor.tabSize": 2,
-  "files.exclude": {
-    "src/main/": true,
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "editor.formatOnSave": true,
+  "javascript.validate.enable": true,
+  "vetur.validation.template": false,
+  "eslint.nodePath": "/node_modules",
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.fixAll.eslint": false
+    "source.fixAll.eslint": true
   },
-  "eslint.options": {
-    "extensinons": [
-      ".ts",
-      ".js",
-      ".tsx",
-      ".jsx"
-    ]
-  },
-  "javascript.validate.enable": true,
-  "editor.quickSuggestions": {
-    "strings": true,
-  }
+  "vueStyle.formatOnSave": true,
+  "vueStyle.ignoreFilesOnSave": [],
+  "vueStyle.preset": {}
 }
